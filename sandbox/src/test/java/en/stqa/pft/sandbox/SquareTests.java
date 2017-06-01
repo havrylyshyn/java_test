@@ -14,5 +14,9 @@ public class SquareTests {
     public void testArea() {
         Square s = new Square(5);
         Assert.assertEquals(s.area(), 25.0);
+
+        Rectangle r = new Rectangle(4, 5);
+        Assert.assertEquals(r.area(), 20.0);
+
     }
 }
