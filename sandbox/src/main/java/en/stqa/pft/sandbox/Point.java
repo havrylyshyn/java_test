@@ -11,5 +11,11 @@ public class Point {
         this.x = x;
         this.y = y;
     }
+//    public Point p1 = new Point(x, y);
+//    public Point p2 = new Point(x, y);
+
+//    public double distance() {
+//        return Math.sqrt((this.p2.x - this.p1.x)*(this.p2.x - this.p1.x) + (this.p2.y - this.p1.y)*(this.p2.y - this.p1.y));
+//    }
 
 }
