@@ -13,6 +13,7 @@ public class ApplicationManager {
     private SessionHelper sessionHelper;
     private NavigationHelper navigationHelper;
     private GroupHelper groupHelper;
+    private ContactHelper contactHelper;
 
     public void init() {
         System.setProperty("webdriver.gecko.driver", "D:\\JAVA\\geckodriver\\geckodriver.exe"); //set path to geckodriver
@@ -36,4 +37,6 @@ public class ApplicationManager {
     public NavigationHelper getNavigationHelper() {
         return navigationHelper;
     }
+
+    public ContactHelper getContactHelper() {return contactHelper;}
 }
